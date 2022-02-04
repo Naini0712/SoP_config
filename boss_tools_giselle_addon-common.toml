@@ -7,16 +7,16 @@
 
 [machines]
 
-	[machines.fuel_loader]
-		fluidCapacity = 8000
-		fluidTransfer = 256
-		#blocks from FuelLoader to each direction
-		workingRange = 2
-
 	[machines.gravity_normalizer]
+		energyUsingPerRange = 1
 		#final energy usage = 'base' + range * 'perRange'
 		energyUsingBase = 0
-		energyUsingPerRange = 1
+
+	[machines.fuel_loader]
+		fluidCapacity = 8000
+		#blocks from FuelLoader to each direction
+		workingRange = 2
+		fluidTransfer = 256
 
 [compats]
 
@@ -25,19 +25,6 @@
 		[compats.mekanism.mekasuit_helmet]
 			oxygenCapacity = 48000
 			oxygenTransfer = 256
-
-		[compats.mekanism.module_space_breathing_unit]
-			#Fill amount of oxygen to helmet when player in water or rain
-			#in rain, produce efficiency is half
-			maxProduceRate = 4
-			#Oxygen gas usage when provide Space-BossTools oxygen to player in space
-			oxygenUsing = 1
-			#Duration of provided oxygen (oxygen provide interval)
-			oxygenDuration = 4
-			#Energy usage when provide Space-BossTools oxygen to player in space
-			energyUsing = 10
-			#Energy usage when produce Mekanism oxygen to player in water, rain
-			energyUsingProduce = 10
 
 		[compats.mekanism.module_space_fire_proof_unit]
 			#Energy usage when prevent fire every tick in Space-BossTools hot planets (e.g. Venus, Mercury)
@@ -52,8 +39,21 @@
 			energyUsing = 10
 
 		[compats.mekanism.module_gravitational_modulating_unit]
-			#Can normalize gravity instead module_space_gravity_normalizing_unit
-			normalizable = true
 			#Energy usage when normalizing gravity every tick in Space-BossTools dimensions
 			energyUsing = 10
+			#Can normalize gravity instead module_space_gravity_normalizing_unit
+			normalizable = true
+
+		[compats.mekanism.module_space_breathing_unit]
+			#Oxygen gas usage when provide Space-BossTools oxygen to player in space
+			oxygenUsing = 1
+			#Energy usage when provide Space-BossTools oxygen to player in space
+			energyUsing = 10
+			#Energy usage when produce Mekanism oxygen to player in water, rain
+			energyUsingProduce = 10
+			#Duration of provided oxygen (oxygen provide interval)
+			oxygenDuration = 4
+			#Fill amount of oxygen to helmet when player in water or rain
+			#in rain, produce efficiency is half
+			maxProduceRate = 4
 

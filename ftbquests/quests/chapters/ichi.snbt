@@ -1,0 +1,232 @@
+{
+	group: ""
+	id: "18FA7D8DFDD50501"
+	filename: "ichi"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	title: "Ichi"
+	order_index: 0
+	quests: [
+		{
+			tasks: [{
+				type: "item"
+				count: 10L
+				id: "2D74F5140D245F00"
+				item: "minecraft:cobblestone"
+				title: "Cobblestone"
+			}]
+			rewards: [
+				{
+					id: "5658701C19598C2C"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					type: "item"
+					count: 10
+					id: "188840B317778437"
+					item: "minecraft:dirt"
+				}
+			]
+			id: "3C1C0EA686320C5C"
+			x: 0.0d
+			y: 0.0d
+			title: "(Maybe)Your First Block"
+		}
+		{
+			tasks: [{
+				id: "07D2F29581D7F232"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			dependencies: ["3C1C0EA686320C5C"]
+			id: "5101CA3BFE7FA23E"
+			icon: "minecraft:oak_log"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			tasks: [{
+				id: "35CFED8E57E28E41"
+				item: "exnihilosequentia:sieve"
+				type: "item"
+			}]
+			dependencies: ["5101CA3BFE7FA23E"]
+			id: "76324AB83F472C4D"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			tasks: [{
+				id: "30F7AD3558390683"
+				item: "exnihilosequentia:mesh_string"
+				type: "item"
+			}]
+			dependencies: ["76324AB83F472C4D"]
+			id: "37DA53ECBED7F1B2"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			tasks: [{
+				id: "22226BAE40C9BBFA"
+				item: "exnihilosequentia:mesh_flint"
+				type: "item"
+			}]
+			dependencies: ["37DA53ECBED7F1B2"]
+			id: "6C4B37DEEE408522"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			tasks: [{
+				id: "641DC30500EF1CD8"
+				item: "exnihilosequentia:mesh_iron"
+				type: "item"
+			}]
+			dependencies: ["6C4B37DEEE408522"]
+			id: "2623974E6140EB2A"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			tasks: [{
+				id: "1AFF16FB5B18EFF9"
+				item: "exnihilosequentia:mesh_diamond"
+				type: "item"
+			}]
+			dependencies: ["2623974E6140EB2A"]
+			id: "2B146A47683CE588"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			tasks: [{
+				id: "521813362690E8A5"
+				item: "exnihilosequentia:mesh_emerald"
+				type: "item"
+			}]
+			dependencies: ["2B146A47683CE588"]
+			id: "6998D264BB193E92"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			tasks: [{
+				id: "3D8F9C6789E5D614"
+				item: "exnihilosequentia:mesh_netherite"
+				type: "item"
+			}]
+			dependencies: ["6998D264BB193E92"]
+			id: "775FF39792D7A798"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			tasks: [{
+				id: "7083B6F5B4BF5E89"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			dependencies: ["3C1C0EA686320C5C"]
+			id: "3BDDAE75489A2F28"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			tasks: [{
+				id: "52F5FD4537629A39"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			dependencies: ["3BDDAE75489A2F28"]
+			id: "6F695604817963DC"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			tasks: [{
+				id: "356A6A9C6CB62321"
+				item: "exnihilosequentia:dust"
+				type: "item"
+			}]
+			dependencies: ["6F695604817963DC"]
+			id: "5FB924420F785707"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			tasks: [{
+				id: "69B63FFBDC8E3067"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			dependencies: ["5FB924420F785707"]
+			id: "646279E89604C938"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			tasks: [{
+				id: "15C08E5A62908D43"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			dependencies: ["646279E89604C938"]
+			id: "6CBCF79D503F5C22"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			tasks: [{
+				id: "094A79ABB5005971"
+				item: "tconstruct:seared_brick"
+				type: "item"
+			}]
+			dependencies: ["6CBCF79D503F5C22"]
+			id: "3F3323A8577FCE8F"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			tasks: [
+				{
+					id: "3944B907CE13A64A"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+				{
+					id: "67A20301FB53C063"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "5948B5ADB4271047"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "49C10BE9BE269369"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+			]
+			dependencies: ["3F3323A8577FCE8F"]
+			id: "1B4E7E1B94D82C35"
+			x: -2.0d
+			y: 1.0d
+			title: "Melting Metals"
+		}
+		{
+			tasks: [{
+				id: "735F61AE6CF385A6"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
+			dependencies: ["1B4E7E1B94D82C35"]
+			id: "01F75AC9FAE8FD73"
+			x: -1.0d
+			y: 1.0d
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	group: ""
+	id: "30F8A422ACD23B43"
+	filename: "san"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	title: "San"
+	order_index: 2
+	quests: [ ]
+}

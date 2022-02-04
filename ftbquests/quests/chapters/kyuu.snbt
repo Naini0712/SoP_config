@@ -1,0 +1,10 @@
+{
+	group: ""
+	id: "27217E0FF58A8254"
+	filename: "kyuu"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	title: "Kyuu"
+	order_index: 8
+	quests: [ ]
+}

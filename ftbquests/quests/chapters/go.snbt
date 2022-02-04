@@ -1,0 +1,10 @@
+{
+	group: ""
+	id: "4F957E0973F9C6BB"
+	filename: "go"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	title: "Go"
+	order_index: 4
+	quests: [ ]
+}

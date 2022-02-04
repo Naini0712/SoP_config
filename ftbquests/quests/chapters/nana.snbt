@@ -1,0 +1,10 @@
+{
+	group: ""
+	id: "216C1926B66330B6"
+	filename: "nana"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	title: "Nana"
+	order_index: 6
+	quests: [ ]
+}

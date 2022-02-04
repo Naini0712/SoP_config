@@ -1,0 +1,88 @@
+{
+	group: ""
+	id: "7D4DE25399701728"
+	filename: "ni"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	title: "Ni"
+	order_index: 1
+	quests: [
+		{
+			tasks: [{
+				id: "7F896D3DBF9C1C1E"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			id: "22E7C0619E79FBBC"
+			x: 0.0d
+			y: 0.0d
+			title: "Your First Alloy"
+		}
+		{
+			tasks: [{
+				id: "74789297AAF890CF"
+				item: "create:shaft"
+				type: "item"
+			}]
+			dependencies: ["22E7C0619E79FBBC"]
+			id: "27804DB9A02C7333"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			tasks: [{
+				id: "57C72ED7D3A87470"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			dependencies: ["27804DB9A02C7333"]
+			id: "35EB073826485C8F"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			tasks: [{
+				id: "79E7E8CAE2B6F177"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			dependencies: ["35EB073826485C8F"]
+			id: "538F4F89AC75B5A6"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			tasks: [{
+				id: "71E61ED5A3E3A659"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			dependencies: ["538F4F89AC75B5A6"]
+			id: "14C051BFBF692BA8"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			tasks: [{
+				id: "48E03D756123346E"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			dependencies: ["538F4F89AC75B5A6"]
+			id: "674A6353B69B9D87"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			tasks: [{
+				id: "7181294114772A14"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			dependencies: ["27804DB9A02C7333"]
+			id: "0E7EE3495B790CA1"
+			x: 1.0d
+			y: -1.0d
+		}
+	]
+}

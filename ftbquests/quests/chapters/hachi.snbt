@@ -1,0 +1,10 @@
+{
+	group: ""
+	id: "6882079AAE88B64E"
+	filename: "hachi"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	title: "Hachi"
+	order_index: 7
+	quests: [ ]
+}
