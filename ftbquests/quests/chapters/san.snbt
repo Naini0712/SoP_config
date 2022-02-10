@@ -13,6 +13,7 @@
 				item: "immersiveengineering:alloybrick"
 				type: "item"
 			}]
+			dependencies: ["6F4BAE02F35DB027"]
 			id: "44305DC81297CE4B"
 			x: 0.0d
 			y: -1.0d

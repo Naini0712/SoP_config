@@ -109,7 +109,7 @@
 			dependencies: ["2B146A47683CE588"]
 			id: "6998D264BB193E92"
 			x: -1.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			tasks: [{
@@ -120,7 +120,7 @@
 			dependencies: ["6998D264BB193E92"]
 			id: "775FF39792D7A798"
 			x: -1.0d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			tasks: [{
@@ -163,8 +163,8 @@
 			}]
 			dependencies: ["5FB924420F785707"]
 			id: "646279E89604C938"
-			x: -4.0d
-			y: 0.0d
+			x: -3.0d
+			y: 1.0d
 		}
 		{
 			tasks: [{
@@ -174,7 +174,7 @@
 			}]
 			dependencies: ["646279E89604C938"]
 			id: "6CBCF79D503F5C22"
-			x: -4.0d
+			x: -2.0d
 			y: 1.0d
 		}
 		{
@@ -185,7 +185,7 @@
 			}]
 			dependencies: ["6CBCF79D503F5C22"]
 			id: "3F3323A8577FCE8F"
-			x: -3.0d
+			x: -1.0d
 			y: 1.0d
 		}
 		{
@@ -213,7 +213,7 @@
 			]
 			dependencies: ["3F3323A8577FCE8F"]
 			id: "1B4E7E1B94D82C35"
-			x: -3.0d
+			x: -1.0d
 			y: 2.0d
 			title: "Melting Metals"
 		}
@@ -225,7 +225,7 @@
 			}]
 			dependencies: ["1B4E7E1B94D82C35"]
 			id: "01F75AC9FAE8FD73"
-			x: -4.0d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
@@ -239,7 +239,7 @@
 				"420B563BAD8D1907"
 			]
 			id: "4861123F039DAA27"
-			x: -5.0d
+			x: -3.0d
 			y: 2.0d
 		}
 		{
@@ -250,8 +250,8 @@
 			}]
 			dependencies: ["646279E89604C938"]
 			id: "4BB3B32778EDA742"
-			x: -5.0d
-			y: 0.0d
+			x: -4.0d
+			y: 1.0d
 		}
 		{
 			tasks: [{
@@ -267,7 +267,18 @@
 			}]
 			dependencies: ["4BB3B32778EDA742"]
 			id: "420B563BAD8D1907"
-			x: -5.0d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			tasks: [{
+				id: "185772F785F7E64A"
+				item: "kubejs:witchstone"
+				type: "item"
+			}]
+			dependencies: ["3C1C0EA686320C5C"]
+			id: "3F162A32B01E52DE"
+			x: 0.0d
 			y: 1.0d
 		}
 	]

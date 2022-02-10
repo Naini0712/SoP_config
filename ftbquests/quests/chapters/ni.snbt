@@ -37,8 +37,8 @@
 			}]
 			dependencies: ["27804DB9A02C7333"]
 			id: "35EB073826485C8F"
-			x: -1.0d
-			y: -1.0d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			tasks: [{
@@ -51,8 +51,8 @@
 				"0E7EE3495B790CA1"
 			]
 			id: "538F4F89AC75B5A6"
-			x: -2.0d
-			y: -2.0d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			tasks: [{
@@ -62,8 +62,8 @@
 			}]
 			dependencies: ["538F4F89AC75B5A6"]
 			id: "14C051BFBF692BA8"
-			x: -3.0d
-			y: -2.0d
+			x: -2.0d
+			y: -3.0d
 		}
 		{
 			tasks: [{
@@ -73,8 +73,8 @@
 			}]
 			dependencies: ["538F4F89AC75B5A6"]
 			id: "674A6353B69B9D87"
-			x: -2.0d
-			y: -3.0d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			tasks: [{
@@ -84,8 +84,8 @@
 			}]
 			dependencies: ["27804DB9A02C7333"]
 			id: "0E7EE3495B790CA1"
-			x: 0.0d
-			y: -2.0d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			tasks: [{
@@ -93,9 +93,10 @@
 				item: "create:encased_fan"
 				type: "item"
 			}]
+			dependencies: ["4586AC9387F4ED39"]
 			id: "7820C063C69CC3FF"
-			x: 3.0d
-			y: -1.0d
+			x: 1.0d
+			y: -2.0d
 		}
 		{
 			tasks: [{
@@ -103,9 +104,10 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
+			dependencies: ["4586AC9387F4ED39"]
 			id: "1BFFA846E61A9E0A"
-			x: 2.0d
-			y: -1.0d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			tasks: [{
@@ -115,8 +117,8 @@
 			}]
 			dependencies: ["35EB073826485C8F"]
 			id: "089FC8ADBD0B27EC"
-			x: -2.0d
-			y: -1.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			tasks: [{
@@ -127,6 +129,54 @@
 			dependencies: ["27804DB9A02C7333"]
 			id: "4586AC9387F4ED39"
 			x: 1.0d
+			y: -1.0d
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 9L
+				id: "6A3CFEB1834F1834"
+				item: "minecraft:iron_nugget"
+			}]
+			dependencies: ["7820C063C69CC3FF"]
+			id: "4F366E9AFBB2CDA7"
+			x: 1.0d
+			y: -3.0d
+			title: "Iron Automation"
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 9L
+				id: "3991102531BD389E"
+				item: "minecraft:gold_nugget"
+			}]
+			dependencies: ["4F366E9AFBB2CDA7"]
+			id: "1A7E54E69F08446D"
+			x: 2.0d
+			y: -3.0d
+			title: "Gold Automation"
+		}
+		{
+			tasks: [{
+				id: "2D255C407FCA3BF1"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			dependencies: ["4F366E9AFBB2CDA7"]
+			id: "536ADDD7E18DA94B"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			tasks: [{
+				id: "172E6410C4427638"
+				item: "create:sail_frame"
+				type: "item"
+			}]
+			dependencies: ["0E7EE3495B790CA1"]
+			id: "747740DEB098AC5E"
+			x: -2.0d
 			y: -1.0d
 		}
 	]
