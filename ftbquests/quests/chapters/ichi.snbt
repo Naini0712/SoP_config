@@ -10,7 +10,7 @@
 		{
 			tasks: [{
 				type: "item"
-				count: 10L
+				count: 8L
 				id: "2D74F5140D245F00"
 				item: "minecraft:cobblestone"
 				title: "Cobblestone"
@@ -213,8 +213,8 @@
 			]
 			dependencies: ["3F3323A8577FCE8F"]
 			id: "1B4E7E1B94D82C35"
-			x: -2.0d
-			y: 1.0d
+			x: -3.0d
+			y: 2.0d
 			title: "Melting Metals"
 		}
 		{
@@ -225,7 +225,49 @@
 			}]
 			dependencies: ["1B4E7E1B94D82C35"]
 			id: "01F75AC9FAE8FD73"
-			x: -1.0d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			tasks: [{
+				id: "5A251C089EB6BA05"
+				item: "tconstruct:nugget_sand_cast"
+				type: "item"
+			}]
+			dependencies: [
+				"01F75AC9FAE8FD73"
+				"420B563BAD8D1907"
+			]
+			id: "4861123F039DAA27"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			tasks: [{
+				id: "5DE547E18F0032AD"
+				item: "exnihilosequentia:crucible_fired"
+				type: "item"
+			}]
+			dependencies: ["646279E89604C938"]
+			id: "4BB3B32778EDA742"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			tasks: [{
+				id: "265048B8590C8F33"
+				item: {
+					id: "ceramics:cracked_clay_bucket"
+					tag: {
+						fluid: "minecraft:lava"
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			dependencies: ["4BB3B32778EDA742"]
+			id: "420B563BAD8D1907"
+			x: -5.0d
 			y: 1.0d
 		}
 	]

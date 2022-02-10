@@ -67,12 +67,6 @@
 		steelFlywheelSpeed = 32
 
 [dynamo]
-<<<<<<< HEAD
-=======
-	#If dynamo is disabled in the server config, the following will be ignored!
-	#Range: 0 ~ 8192
-	dynamoFeMaxOut = 64
->>>>>>> 7f09d03f41e07f7507f13ba8b00bcb2d8137899d
 	#Range: 0 ~ 8192
 	dynamoFeCapacity = 2048
 	#Range: 0 ~ 8192

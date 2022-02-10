@@ -46,10 +46,13 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			dependencies: ["35EB073826485C8F"]
+			dependencies: [
+				"089FC8ADBD0B27EC"
+				"0E7EE3495B790CA1"
+			]
 			id: "538F4F89AC75B5A6"
-			x: -1.0d
-			y: 0.0d
+			x: -2.0d
+			y: -2.0d
 		}
 		{
 			tasks: [{
@@ -59,8 +62,8 @@
 			}]
 			dependencies: ["538F4F89AC75B5A6"]
 			id: "14C051BFBF692BA8"
-			x: -1.0d
-			y: 1.0d
+			x: -3.0d
+			y: -2.0d
 		}
 		{
 			tasks: [{
@@ -71,7 +74,7 @@
 			dependencies: ["538F4F89AC75B5A6"]
 			id: "674A6353B69B9D87"
 			x: -2.0d
-			y: 0.0d
+			y: -3.0d
 		}
 		{
 			tasks: [{
@@ -81,6 +84,48 @@
 			}]
 			dependencies: ["27804DB9A02C7333"]
 			id: "0E7EE3495B790CA1"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			tasks: [{
+				id: "0BDF26B0A14E3C9A"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			id: "7820C063C69CC3FF"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			tasks: [{
+				id: "7ED68193099AA4D4"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			id: "1BFFA846E61A9E0A"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			tasks: [{
+				id: "7425F902F317FF87"
+				item: "kubejs:hull_brass"
+				type: "item"
+			}]
+			dependencies: ["35EB073826485C8F"]
+			id: "089FC8ADBD0B27EC"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			tasks: [{
+				id: "0DC3C3D953342E8A"
+				item: "kubejs:hull_andesite"
+				type: "item"
+			}]
+			dependencies: ["27804DB9A02C7333"]
+			id: "4586AC9387F4ED39"
 			x: 1.0d
 			y: -1.0d
 		}

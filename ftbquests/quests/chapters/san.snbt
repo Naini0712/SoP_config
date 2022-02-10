@@ -6,5 +6,32 @@
 	default_quest_shape: ""
 	title: "San"
 	order_index: 2
-	quests: [ ]
+	quests: [
+		{
+			tasks: [{
+				id: "31B0F0F10222A210"
+				item: "immersiveengineering:alloybrick"
+				type: "item"
+			}]
+			id: "44305DC81297CE4B"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			tasks: [{
+				id: "2ACF8B83D8F7189C"
+				item: {
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+					Count: 1b
+				}
+				type: "item"
+			}]
+			id: "6F4BAE02F35DB027"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 }
